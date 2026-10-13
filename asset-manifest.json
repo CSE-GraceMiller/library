@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/react-hello-world/static/css/main.31d6cfe0.css",
-    "main.js": "/react-hello-world/static/js/main.6aa88127.js",
+    "main.css": "/react-hello-world/static/css/main.a5feb768.css",
+    "main.js": "/react-hello-world/static/js/main.c8a7706a.js",
+    "static/media/fully-booked-logo.png": "/react-hello-world/static/media/fully-booked-logo.5eba3e63a734227a0799.png",
     "index.html": "/react-hello-world/index.html",
-    "main.6aa88127.js.map": "/react-hello-world/static/js/main.6aa88127.js.map"
+    "main.a5feb768.css.map": "/react-hello-world/static/css/main.a5feb768.css.map",
+    "main.c8a7706a.js.map": "/react-hello-world/static/js/main.c8a7706a.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.6aa88127.js"
+    "static/css/main.a5feb768.css",
+    "static/js/main.c8a7706a.js"
   ]
 }
