@@ -16,5 +16,21 @@
   color: rgba(255, 255, 255, 0.92);
   text-decoration: none;
   font-weight: 600;
+  font-size: 1.55rem;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
+  font-weight: 600;
   font-size: 1.4rem;
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
