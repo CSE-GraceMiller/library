@@ -1,0 +1,20 @@
+#main-nav {
+  flex: 1;
+  margin-left: 3rem;
+}
+
+#main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav a {
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.4rem;
+}

@@ -5,11 +5,15 @@ import Navigation from "../navigation/Navigation";
 const Header = () => {
     return (
         <header className="main-header">
-            <img id="logo" src={logo} alt="fb-logo"></img>
-            <h1>Hi</h1>
-            <Navigation />
-        </header>
-    );
-};
+            <div className="header-inner">
+                <a href="/" className="logo">
+                <img id="logo" src={logo} alt="Fully Booked Logo" />
+                <span>Fully Booked</span>
+                </a>
+                <Navigation />
+                </div>
+                </header>
+                );
+            };
 
 export default Header;
