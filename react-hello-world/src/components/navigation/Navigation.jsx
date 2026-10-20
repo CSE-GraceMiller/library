@@ -1,6 +1,5 @@
 import "./Navigation.css";
 import { NavLink } from "react-router-dom";
-import {HashLink} from "react-router-hash-link"
 
 import homeIcon from "./images/home-transparent.png";
 import bookIcon from "./images/book-icon-white.png";
@@ -13,44 +12,36 @@ const Navigation = () => {
     <nav id="main-nav" className="nav">
       <ul>
         <li>
-          <NavLink to="/" end className={
-            ({ isActive }) =>
-              isActive ? "nav-link active" : "nav-link"
-            }>
-            <img src={homeIcon} className="nav-icon" />
+          <NavLink to="/" end className="nav-link">
+            <img src={homeIcon} alt="" className="nav-icon" />
             Home
           </NavLink>
         </li>
 
         <li>
-          <NavLink
-            to="/books"
-            className={({ isActive }) =>
-              isActive ? "nav-link active" : "nav-link"
-            }
-          >
-            <img src={bookIcon} className="nav-icon" />
+          <NavLink to="books" end className="nav-link">
+            <img src={bookIcon} alt="" className="nav-icon" />
             Books
           </NavLink>
         </li>
 
         <li>
           <NavLink to="/movies" className="nav-link">
-            <img src={movieIcon} className="nav-icon" />
+            <img src={movieIcon} alt="" className="nav-icon" />
             Movies
           </NavLink>
         </li>
 
         <li>
           <NavLink to="/visit" className="nav-link">
-            <img src={locationIcon} className="nav-icon" />
+            <img src={locationIcon} alt="" className="nav-icon" />
             Visit
           </NavLink>
         </li>
 
         <li>
           <NavLink to="/about" className="nav-link">
-            <img src={aboutIcon} className="nav-icon" />
+            <img src={aboutIcon} alt="" className="nav-icon" />
             About
           </NavLink>
         </li>
