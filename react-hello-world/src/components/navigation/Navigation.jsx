@@ -1,4 +1,6 @@
 import "./Navigation.css";
+import { NavLink } from "react-router-dom";
+import {HashLink} from "react-router-hash-link"
 
 import homeIcon from "./images/home-transparent.png";
 import bookIcon from "./images/book-icon-white.png";
@@ -7,42 +9,54 @@ import locationIcon from "./images/location-transparent.png";
 import aboutIcon from "./images/search-transparent.png";
 
 const Navigation = () => {
-    return (
+  return (
     <nav id="main-nav" className="nav">
-        <ul>
+      <ul>
         <li>
-          <a href="#" className="nav-link">
-            <img src={homeIcon} alt="" className="nav-icon" />
+          <NavLink to="/" end className={
+            ({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }>
+            <img src={homeIcon} className="nav-icon" />
             Home
-          </a>
+          </NavLink>
         </li>
+
         <li>
-          <a href="#" className="nav-link">
-            <img src={bookIcon} alt="" className="nav-icon" />
+          <NavLink
+            to="/books"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            <img src={bookIcon} className="nav-icon" />
             Books
-          </a>
+          </NavLink>
         </li>
+
         <li>
-          <a href="#" className="nav-link">
-            <img src={movieIcon} alt="" className="nav-icon" />
+          <NavLink to="/movies" className="nav-link">
+            <img src={movieIcon} className="nav-icon" />
             Movies
-          </a>
+          </NavLink>
         </li>
+
         <li>
-          <a href="#" className="nav-link">
-            <img src={locationIcon} alt="" className="nav-icon" />
+          <NavLink to="/visit" className="nav-link">
+            <img src={locationIcon} className="nav-icon" />
             Visit
-          </a>
+          </NavLink>
         </li>
+
         <li>
-          <a href="#" className="nav-link">
-            <img src={aboutIcon} alt="" className="nav-icon" />
+          <NavLink to="/about" className="nav-link">
+            <img src={aboutIcon} className="nav-icon" />
             About
-          </a>
+          </NavLink>
         </li>
       </ul>
-      </nav>
-    );
+    </nav>
+  );
 };
 
 export default Navigation;
