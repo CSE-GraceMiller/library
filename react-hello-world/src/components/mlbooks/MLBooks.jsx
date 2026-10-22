@@ -11,30 +11,27 @@ function MLBooks() {
         <h2 className="section-title">Most-Loved books</h2>
 
         <div className="books-grid">
-          {/* Moonlight Map */}
           <article className="book-card">
             <div className="book-cover">
-              <img src={moonlightMap} alt="Moonlight Map" />
+              <img src={moonlightMap} alt="" />
             </div>
             <h3>Moonlight Map</h3>
             <p className="author">by Lara Finch</p>
             <button className="heart">♡</button>
           </article>
 
-          {/* Little Fox */}
           <article className="book-card">
             <div className="book-cover">
-              <img src={littleFox} alt="The Little Fox’s Big Day" />
+              <img src={littleFox} alt="" />
             </div>
             <h3>The Little Fox’s Big Day</h3>
             <p className="author">by Theo Brightly</p>
             <button className="heart">♡</button>
           </article>
 
-          {/* Cloud Garden */}
           <article className="book-card">
             <div className="book-cover">
-              <img src={miraCloudGarden} alt="Mira and the Cloud Garden" />
+              <img src={miraCloudGarden} alt="" />
             </div>
             <h3>Mira and the Cloud Garden</h3>
             <p className="author">by Lila Greenwood</p>
