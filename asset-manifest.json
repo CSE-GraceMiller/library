@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/library/static/css/main.47ebcdb9.css",
-    "main.js": "/library/static/js/main.9b671ad7.js",
+    "main.css": "/library/static/css/main.c5e38d7b.css",
+    "main.js": "/library/static/js/main.2314dabc.js",
+    "static/media/library-pic-3.png": "/library/static/media/library-pic-3.d8d5d6b8904c7abafa76.png",
+    "static/media/library-pic-1.png": "/library/static/media/library-pic-1.2d308493f446e9af7e1a.png",
+    "static/media/library-pic-2.png": "/library/static/media/library-pic-2.1124b53fb622156fe578.png",
     "static/media/fully-booked-logo.png": "/library/static/media/fully-booked-logo.5eba3e63a734227a0799.png",
     "static/media/books-coffee.png": "/library/static/media/books-coffee.a1abb1081308a847d5b9.png",
     "static/media/crafts.png": "/library/static/media/crafts.123df92c93b1ecccd904.png",
@@ -13,11 +16,11 @@
     "static/media/event-reading-dragon-exact.png": "/library/static/media/event-reading-dragon-exact.9862c08539ba7823a506.png",
     "static/media/cd-icon-white.png": "/library/static/media/cd-icon-white.ffda0d959681cfcdd4f8.png",
     "index.html": "/library/index.html",
-    "main.47ebcdb9.css.map": "/library/static/css/main.47ebcdb9.css.map",
-    "main.9b671ad7.js.map": "/library/static/js/main.9b671ad7.js.map"
+    "main.c5e38d7b.css.map": "/library/static/css/main.c5e38d7b.css.map",
+    "main.2314dabc.js.map": "/library/static/js/main.2314dabc.js.map"
   },
   "entrypoints": [
-    "static/css/main.47ebcdb9.css",
-    "static/js/main.9b671ad7.js"
+    "static/css/main.c5e38d7b.css",
+    "static/js/main.2314dabc.js"
   ]
 }
