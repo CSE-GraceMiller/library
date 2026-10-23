@@ -1,9 +1,12 @@
+import BookHero from "../../components/bookhero/BookHero";
+
 const Books = () => {
     return (
-        <section id="Books">
-            <h3>Books</h3>
-        </section>
-    );
+    <>
+      <BookHero />
+      {/* other sections */}
+    </>
+  );
 };
 
 export default Books;
