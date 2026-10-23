@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/library/static/css/main.54fe1682.css",
-    "main.js": "/library/static/js/main.eced5e9d.js",
+    "main.css": "/library/static/css/main.c69ff216.css",
+    "main.js": "/library/static/js/main.3e22b396.js",
     "static/media/library-pic-3.png": "/library/static/media/library-pic-3.d8d5d6b8904c7abafa76.png",
     "static/media/library-pic-1.png": "/library/static/media/library-pic-1.2d308493f446e9af7e1a.png",
     "static/media/library-pic-2.png": "/library/static/media/library-pic-2.1124b53fb622156fe578.png",
@@ -13,18 +13,24 @@
     "static/media/mira-cloud-garden.png": "/library/static/media/mira-cloud-garden.783775fd43050d50e9d1.png",
     "static/media/little-fox-big-day.png": "/library/static/media/little-fox-big-day.827553057f9392648df3.png",
     "static/media/moonlight-map.png": "/library/static/media/moonlight-map.5e5d49455db5d0cf847e.png",
+    "static/media/book-a-house-for-everyone.png": "/library/static/media/book-a-house-for-everyone.12f3caf6cb516fc3f2e9.png",
+    "static/media/book-pip-plants-a-planet.png": "/library/static/media/book-pip-plants-a-planet.0d52d044ae907dda13cc.png",
+    "static/media/book-the-mystery-of-mossy-creek.png": "/library/static/media/book-the-mystery-of-mossy-creek.3bd491ee1373710ccd92.png",
     "static/media/book-treehouse-tales.png": "/library/static/media/book-treehouse-tales.b0006e8ec86e0cde38fe.png",
     "static/media/book-lunas-nightlight.png": "/library/static/media/book-lunas-nightlight.551971045b9127d49ef7.png",
+    "static/media/book-the-robot-who-read.png": "/library/static/media/book-the-robot-who-read.217b90b4be11216d06cc.png",
+    "static/media/book-the-cloud-collectors.png": "/library/static/media/book-the-cloud-collectors.47233d0b680dae7c8c91.png",
+    "static/media/book-stella-and-the-shooting-star.png": "/library/static/media/book-stella-and-the-shooting-star.fc65aa68051f5836b8f4.png",
     "static/media/book-brave-little-whale.png": "/library/static/media/book-brave-little-whale.46a8e8ae01b8d22962a9.png",
     "static/media/event-sleepy-moon-exact.png": "/library/static/media/event-sleepy-moon-exact.a2dd599f942eaae74e0a.png",
     "static/media/event-reading-dragon-exact.png": "/library/static/media/event-reading-dragon-exact.9862c08539ba7823a506.png",
     "static/media/cd-icon-white.png": "/library/static/media/cd-icon-white.ffda0d959681cfcdd4f8.png",
     "index.html": "/library/index.html",
-    "main.54fe1682.css.map": "/library/static/css/main.54fe1682.css.map",
-    "main.eced5e9d.js.map": "/library/static/js/main.eced5e9d.js.map"
+    "main.c69ff216.css.map": "/library/static/css/main.c69ff216.css.map",
+    "main.3e22b396.js.map": "/library/static/js/main.3e22b396.js.map"
   },
   "entrypoints": [
-    "static/css/main.54fe1682.css",
-    "static/js/main.eced5e9d.js"
+    "static/css/main.c69ff216.css",
+    "static/js/main.3e22b396.js"
   ]
 }
