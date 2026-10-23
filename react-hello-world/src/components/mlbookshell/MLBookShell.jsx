@@ -1,4 +1,3 @@
-
 function MLBookShell({ title, author, src }) {
   return (
     <article className="book-card">

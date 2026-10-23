@@ -12,9 +12,18 @@ const MLBooks = () => {
         <h2 className="section-title">Most-Loved books</h2>
 
         <div className="books-grid">
-          <Book title="Moonlight Map" author="Lara Finch" src={moonlightMap}/>
-          <Book title="The Little Fox’s Big Day" author="Theo Brightly" src={littleFox}/>
-          <Book title="Mira and the Cloud Garden" author="Lila Greenwood" src={miraCloudGarden}/>
+          <Book 
+          title="Moonlight Map" 
+          author="Lara Finch" 
+          src={moonlightMap}/>
+          <Book 
+          title="The Little Fox’s Big Day" 
+          author="Theo Brightly" 
+          src={littleFox}/>
+          <Book 
+          title="Mira and the Cloud Garden" 
+          author="Lila Greenwood" 
+          src={miraCloudGarden}/>
         </div>
       </div>
     </section>
