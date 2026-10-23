@@ -4,7 +4,6 @@ const Books = () => {
     return (
     <>
       <BookHero />
-      {/* other sections */}
     </>
   );
 };
