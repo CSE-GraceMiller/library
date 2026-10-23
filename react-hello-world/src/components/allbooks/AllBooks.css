@@ -1,0 +1,84 @@
+.all-books-section .section-title {
+  text-align: left;
+  justify-content: flex-start;
+  margin-bottom: 1.6rem;
+}
+
+.all-books-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8rem;
+}
+
+.book-card-catalogue {
+  display: flex;
+  gap: 1.3rem;
+  background: var(--color-white);
+  border-radius: 18px;
+  padding: 1.3rem;
+  align-items: flex-start;
+}
+
+.book-card-catalogue .book-cover {
+  width: 170px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.book-card-catalogue .book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.book-info h3 {
+  font-size: 1.2rem;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+}
+
+.book-info .author {
+  font-size: 0.95rem;
+  color: var(--color-text-soft);
+  margin-bottom: 0.5rem;
+}
+
+.book-info .book-desc {
+  margin-bottom: 0.7rem;
+  font-size: 0.9rem;
+  color: var(--color-text-soft);
+}
+
+.genre-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.7rem;
+  border-radius: 20px;
+  margin-right: 0.4rem;
+  margin-bottom: 0.6rem;
+  text-transform: capitalize;
+}
+
+.genre-tag.adventure   { background: #f8d9b0; color: #8a4b1a; }
+.genre-tag.animals     { background: #d4e8f0; color: #1a5a6e; }
+.genre-tag.friendship  { background: #f0d4e8; color: #6b2a5a; }
+.genre-tag.environment { background: #d4e8d0; color: #2a5a2a; }
+
+.available {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+.all-books-grid {
+    grid-template-columns: 1fr;
+  }
+}
