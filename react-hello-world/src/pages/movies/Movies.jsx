@@ -1,9 +1,11 @@
+import MovieHero from "../../components/moviehero/MovieHero";
+
 const Movies = () => {
-    return (
-        <section id="Movies">
-            <h3>Movies</h3>
-        </section>
-    );
+  return (
+    <>
+      <MovieHero />
+    </>
+  );
 };
 
 export default Movies;

@@ -1,0 +1,98 @@
+.movie-hero {
+  background-image: url("./images/movie-hero.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+  min-height: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.movie-hero-inner {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 3.5rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.movie-hero-text {
+  max-width: 380px;
+  margin-left: 20rem;
+}
+
+.movie-hero-text h1 {
+  font-size: 3.1rem;
+  line-height: 1.15;
+  color: var(--color-text);
+  margin-bottom: 1.6rem;
+}
+
+.movie-search {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  max-width: 460px;
+}
+
+.movie-search .search-input-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: var(--color-white);
+  border-radius: 50px;
+  padding: 0.7rem 1.2rem;
+}
+
+.movie-search .search-icon img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 0.65rem;
+  display: block;
+}
+
+.movie-search input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+  background: transparent;
+  color: var(--color-text);
+}
+
+@media (max-width: 900px) {
+.movie-hero {
+  background-size: cover;
+  background-position: center center;
+  min-height: 380px;
+  padding: 3rem 0;
+}
+
+.movie-hero-text {
+  background: rgba(245, 237, 220, 0.92);
+  padding: 1.8rem 1.6rem;
+  border-radius: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+  .movie-hero-inner {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .movie-hero-text {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .movie-hero-text h1 {
+    font-size: 2.3rem;
+  }
+}
