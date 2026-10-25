@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/library/static/css/main.f57ac0c8.css",
-    "main.js": "/library/static/js/main.14d232ba.js",
+    "main.css": "/library/static/css/main.61bc5373.css",
+    "main.js": "/library/static/js/main.7391a6f0.js",
     "static/media/library-pic-3.png": "/library/static/media/library-pic-3.d8d5d6b8904c7abafa76.png",
     "static/media/library-pic-1.png": "/library/static/media/library-pic-1.2d308493f446e9af7e1a.png",
     "static/media/library-pic-2.png": "/library/static/media/library-pic-2.1124b53fb622156fe578.png",
@@ -13,6 +13,7 @@
     "static/media/books-coffee.png": "/library/static/media/books-coffee.a1abb1081308a847d5b9.png",
     "static/media/crafts.png": "/library/static/media/crafts.123df92c93b1ecccd904.png",
     "static/media/visit-hero.png": "/library/static/media/visit-hero.46cfc1249c345eb66074.png",
+    "static/media/full-hero-about.png": "/library/static/media/full-hero-about.638988d7fb6d45306804.png",
     "static/media/movie-hero.png": "/library/static/media/movie-hero.93cf0c73d875b3ddc481.png",
     "static/media/hero.png": "/library/static/media/hero.d1c4eeb7e5a81d3c349a.png",
     "static/media/books-hero.png": "/library/static/media/books-hero.82cd19037b433b24d5c5.png",
@@ -40,11 +41,11 @@
     "static/media/event-reading-dragon-exact.png": "/library/static/media/event-reading-dragon-exact.9862c08539ba7823a506.png",
     "static/media/cd-icon-white.png": "/library/static/media/cd-icon-white.ffda0d959681cfcdd4f8.png",
     "index.html": "/library/index.html",
-    "main.f57ac0c8.css.map": "/library/static/css/main.f57ac0c8.css.map",
-    "main.14d232ba.js.map": "/library/static/js/main.14d232ba.js.map"
+    "main.61bc5373.css.map": "/library/static/css/main.61bc5373.css.map",
+    "main.7391a6f0.js.map": "/library/static/js/main.7391a6f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f57ac0c8.css",
-    "static/js/main.14d232ba.js"
+    "static/css/main.61bc5373.css",
+    "static/js/main.7391a6f0.js"
   ]
 }
