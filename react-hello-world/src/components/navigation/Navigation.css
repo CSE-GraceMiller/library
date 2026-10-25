@@ -34,3 +34,20 @@
   height: 20px;
   object-fit: contain;
 }
+
+@media (max-width: 900px) {
+#main-nav {
+  margin-left: 0;
+  width: 100%;
+}
+
+#main-nav ul {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  justify-content: center;
+}
+}
