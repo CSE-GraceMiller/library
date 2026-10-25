@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/library/static/css/main.00124409.css",
-    "main.js": "/library/static/js/main.53ec7a32.js",
+    "main.css": "/library/static/css/main.9f95f31a.css",
+    "main.js": "/library/static/js/main.44a5a271.js",
     "static/media/library-pic-3.png": "/library/static/media/library-pic-3.d8d5d6b8904c7abafa76.png",
     "static/media/library-pic-1.png": "/library/static/media/library-pic-1.2d308493f446e9af7e1a.png",
     "static/media/library-pic-2.png": "/library/static/media/library-pic-2.1124b53fb622156fe578.png",
@@ -31,6 +31,7 @@
     "static/media/ellie-portrait.png": "/library/static/media/ellie-portrait.2333442c35aeb6a71d46.png",
     "static/media/maya-portrait.png": "/library/static/media/maya-portrait.19e62d4d23108cdeb3e4.png",
     "static/media/daniel-portrait.png": "/library/static/media/daniel-portrait.17b1054185f9ad8cebf5.png",
+    "static/media/open-book-banner.png": "/library/static/media/open-book-banner.12fdb74eba258df84a9c.png",
     "static/media/book-a-house-for-everyone.png": "/library/static/media/book-a-house-for-everyone.12f3caf6cb516fc3f2e9.png",
     "static/media/book-pip-plants-a-planet.png": "/library/static/media/book-pip-plants-a-planet.0d52d044ae907dda13cc.png",
     "static/media/book-the-mystery-of-mossy-creek.png": "/library/static/media/book-the-mystery-of-mossy-creek.3bd491ee1373710ccd92.png",
@@ -49,11 +50,11 @@
     "static/media/curiosity-top.png": "/library/static/media/curiosity-top.1e59210e023d45628f3f.png",
     "static/media/cd-icon-white.png": "/library/static/media/cd-icon-white.ffda0d959681cfcdd4f8.png",
     "index.html": "/library/index.html",
-    "main.00124409.css.map": "/library/static/css/main.00124409.css.map",
-    "main.53ec7a32.js.map": "/library/static/js/main.53ec7a32.js.map"
+    "main.9f95f31a.css.map": "/library/static/css/main.9f95f31a.css.map",
+    "main.44a5a271.js.map": "/library/static/js/main.44a5a271.js.map"
   },
   "entrypoints": [
-    "static/css/main.00124409.css",
-    "static/js/main.53ec7a32.js"
+    "static/css/main.9f95f31a.css",
+    "static/js/main.44a5a271.js"
   ]
 }
