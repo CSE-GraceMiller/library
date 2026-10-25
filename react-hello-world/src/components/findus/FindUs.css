@@ -1,0 +1,29 @@
+.map-card {
+  background: var(--color-white);
+  border-radius: 24px;
+  padding: 2rem 1.8rem 2.2rem;
+}
+
+.map-card h2 {
+  font-size: 1.55rem;
+  color: var(--color-text);
+  margin-bottom: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-title-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.map-img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  display: block;
+  object-fit: cover;
+}
+
