@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/library/static/css/main.3a496f89.css",
-    "main.js": "/library/static/js/main.1d985a58.js",
+    "main.css": "/library/static/css/main.f57ac0c8.css",
+    "main.js": "/library/static/js/main.14d232ba.js",
     "static/media/library-pic-3.png": "/library/static/media/library-pic-3.d8d5d6b8904c7abafa76.png",
     "static/media/library-pic-1.png": "/library/static/media/library-pic-1.2d308493f446e9af7e1a.png",
     "static/media/library-pic-2.png": "/library/static/media/library-pic-2.1124b53fb622156fe578.png",
@@ -34,16 +34,17 @@
     "static/media/book-the-robot-who-read.png": "/library/static/media/book-the-robot-who-read.217b90b4be11216d06cc.png",
     "static/media/book-the-cloud-collectors.png": "/library/static/media/book-the-cloud-collectors.47233d0b680dae7c8c91.png",
     "static/media/book-stella-and-the-shooting-star.png": "/library/static/media/book-stella-and-the-shooting-star.fc65aa68051f5836b8f4.png",
+    "static/media/bunny-reading-card.png": "/library/static/media/bunny-reading-card.d9a6cc2eadda6bd6d0e3.png",
     "static/media/book-brave-little-whale.png": "/library/static/media/book-brave-little-whale.46a8e8ae01b8d22962a9.png",
     "static/media/event-sleepy-moon-exact.png": "/library/static/media/event-sleepy-moon-exact.a2dd599f942eaae74e0a.png",
     "static/media/event-reading-dragon-exact.png": "/library/static/media/event-reading-dragon-exact.9862c08539ba7823a506.png",
     "static/media/cd-icon-white.png": "/library/static/media/cd-icon-white.ffda0d959681cfcdd4f8.png",
     "index.html": "/library/index.html",
-    "main.3a496f89.css.map": "/library/static/css/main.3a496f89.css.map",
-    "main.1d985a58.js.map": "/library/static/js/main.1d985a58.js.map"
+    "main.f57ac0c8.css.map": "/library/static/css/main.f57ac0c8.css.map",
+    "main.14d232ba.js.map": "/library/static/js/main.14d232ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a496f89.css",
-    "static/js/main.1d985a58.js"
+    "static/css/main.f57ac0c8.css",
+    "static/js/main.14d232ba.js"
   ]
 }
