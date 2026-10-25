@@ -1,0 +1,69 @@
+.visit-hero {
+  background-color: var(--color-bg-soft);
+  background-image: url("./images/visit-hero.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 520px;
+  padding: 4.5rem 0 5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.visit-hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+  max-width: none;
+  padding: 0 3rem;
+}
+
+.visit-hero-text {
+  max-width: 420px;
+  margin-left: 11rem;
+}
+
+.visit-hero-text h1 {
+  font-size: 3.2rem;
+  line-height: 1.15;
+  color: var(--color-text);
+  margin-bottom: 1.2rem;
+}
+
+.visit-hero-text p {
+  font-size: 1.15rem;
+  color: var(--color-text);
+  max-width: 400px;
+  line-height: 1.55;
+}
+
+@media (max-width: 900px) {
+.visit-hero {
+  background-size: cover;
+  background-position: center right;
+  min-height: 380px;
+  padding: 3rem 0;
+}
+
+  .visit-hero-inner,
+  .visit-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+.visit-hero-text {
+  background: rgba(255, 252, 245, 0.92);
+  padding: 1.8rem 1.6rem;
+  border-radius: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+  .visit-hero-text h1 {
+    font-size: 2.6rem;
+  }
+}

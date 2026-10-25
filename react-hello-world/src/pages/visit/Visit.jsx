@@ -1,9 +1,11 @@
+import VisitHero from "../../components/visithero/VisitHero";
+
 const Visit = () => {
-    return (
-        <section id="Visit">
-            <h3>Visit</h3>
-        </section>
-    );
+  return (
+    <>
+      <VisitHero />
+    </>
+  );
 };
 
 export default Visit;
