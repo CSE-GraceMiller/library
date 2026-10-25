@@ -18,12 +18,9 @@ function MovieHero() {
           <div className="movie-search">
             <div className="search-input-wrap">
               <span className="search-icon">
-                <img src={searchIcon} alt="Search" />
+                <img src={searchIcon} alt="" />
               </span>
-              <input
-                type="text"
-                placeholder="Search movies and shows"
-              />
+              <input type="text" placeholder="Search movies and shows"/>
             </div>
           </div>
         </div>
