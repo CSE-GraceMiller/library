@@ -1,0 +1,70 @@
+.events-today-card {
+  background: var(--color-kindness);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 2rem 1.8rem 2.2rem;
+  border-radius: 24px;
+}
+
+.events-today-card h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1.6rem;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-title-icon {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.today-event {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 2rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 0;
+  text-align: center;
+  gap: 0.8rem;
+}
+
+.today-event-img {
+  width: 290px;
+  height: 290px;
+  object-fit: contain;
+  border-radius: 14px;
+  flex-shrink: 0;
+}
+
+.today-event-content {
+  width: 100%;
+}
+
+.today-event-content h3 {
+  font-size: 1.45rem;
+  color: var(--color-text);
+  margin-bottom: 0.45rem;
+}
+
+.event-time {
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: 0.55rem;
+  font-size: 1.1rem;
+}
+
+.today-event-content p {
+  font-size: 1.05rem;
+  color: var(--color-text);
+  line-height: 1.45;
+  max-width: 280px;
+  margin: 0 auto;
+}
