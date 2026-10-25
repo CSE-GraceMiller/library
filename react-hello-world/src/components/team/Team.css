@@ -1,0 +1,41 @@
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.team-card {
+  text-align: center;
+  background: white;
+  border-radius: 22px;
+  padding: 1.6rem 1.2rem 1.8rem;
+}
+
+.team-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  color: var(--color-text);
+}
+
+.team-card .role {
+  font-size: 0.95rem;
+  color: #5a6b5c;
+}
+
+.team-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin: 0 auto 1rem;
+  display: block;
+  border: 4px solid #f5ead2;
+}
+
+@media (max-width: 900px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,57 @@
+.story-and-team {
+  padding: 4rem 0 5rem;
+  background: var(--color-bg);
+}
+
+.story-and-team > .container,
+.story-team-inner {
+  max-width: none;
+  width: 100%;
+  padding: 0 3rem;
+}
+
+.story-team-inner {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 4.5rem;
+  align-items: start;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.story-and-team .section-title {
+  font-size: 2.1rem;
+  margin-bottom: 2.2rem;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .story-team-inner {
+    gap: 3rem;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .timeline {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .belong-left {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .open-book-img {
+    max-width: 160px;
+  }
+}
