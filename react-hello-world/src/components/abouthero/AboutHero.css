@@ -45,7 +45,7 @@
   object-fit: contain;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 999px) {
   .about-hero-inner,
   .story-team-inner,
   .belong-inner {

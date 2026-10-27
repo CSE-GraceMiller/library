@@ -35,7 +35,7 @@
   object-fit: contain;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 999px) {
 #main-nav {
   margin-left: 0;
   width: 100%;

@@ -50,7 +50,7 @@
   accent-color: var(--color-primary);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 999px) {
 .filters {
     position: static;
   }

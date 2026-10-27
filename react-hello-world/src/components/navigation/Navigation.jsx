@@ -8,6 +8,7 @@ import locationIcon from "./images/location-transparent.png";
 import aboutIcon from "./images/search-transparent.png";
 
 const Navigation = () => {
+
   return (
     <nav id="main-nav" className="nav">
       <ul>
@@ -49,5 +50,6 @@ const Navigation = () => {
     </nav>
   );
 };
+
 
 export default Navigation;

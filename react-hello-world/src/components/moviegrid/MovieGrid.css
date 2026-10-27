@@ -64,7 +64,7 @@
   object-fit: contain;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 999px) {
 .movie-grid {
     grid-template-columns: 1fr;
   }

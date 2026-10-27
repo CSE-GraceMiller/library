@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 999px) {
 .header-inner {
   flex-direction: column;
   padding: 0 1rem;

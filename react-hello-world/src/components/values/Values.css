@@ -60,7 +60,7 @@
   opacity: 0.85;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 999px) {
 .values-grid {
     grid-template-columns: 1fr 1fr;
   }

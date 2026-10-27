@@ -117,7 +117,7 @@
   object-fit: contain;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 999px) {
 .visit-hero-inner, .visit-info-grid {
     grid-template-columns: 1fr;
   }
