@@ -35,19 +35,40 @@
   object-fit: contain;
 }
 
+#toggle-nav {
+  display: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 999px) {
-#main-nav {
-  margin-left: 0;
-  width: 100%;
-}
+  #main-nav {
+    margin-left: 0;
+    width: 100%;
+  }
 
-#main-nav ul {
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
+  #toggle-nav {
+    display: block;
+  }
 
-.nav-link {
-  justify-content: center;
-}
+  #main-nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #main-nav ul.hide-small {
+    display: none;
+  }
+
+  #main-nav ul:not(.hide-small) {
+    display: flex;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
 }

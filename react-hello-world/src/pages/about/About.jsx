@@ -5,6 +5,7 @@ import Values from "../../components/values/Values";
 import Timeline from "../../components/timeline/Timeline";
 import Team from "../../components/team/Team";
 import Belong from "../../components/belong/Belong";
+import Contact from "../../components/contact/Contact";
 
 const About = () => {
   return (
@@ -17,6 +18,7 @@ const About = () => {
         <Team />
         </div>
         </section>
+        <Contact />
         <Belong />
         </>
         );

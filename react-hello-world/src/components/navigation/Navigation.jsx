@@ -1,5 +1,7 @@
 import "./Navigation.css";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 import homeIcon from "./images/home-transparent.png";
 import bookIcon from "./images/book-icon-white.png";
@@ -8,10 +10,20 @@ import locationIcon from "./images/location-transparent.png";
 import aboutIcon from "./images/search-transparent.png";
 
 const Navigation = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleNav = (e) => {
+    e.preventDefault();
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <nav id="main-nav" className="nav">
-      <ul>
+      <HashLink id="toggle-nav" to="#" onClick={toggleNav}>
+        {menuOpen ? <p>&#8963;</p> : <p>&#8964;</p>}
+      </HashLink>
+
+      <ul className={menuOpen ? "" : "hide-small"}>
         <li>
           <NavLink to="/" end className="nav-link">
             <img src={homeIcon} alt="" className="nav-icon" />
@@ -20,7 +32,7 @@ const Navigation = () => {
         </li>
 
         <li>
-          <NavLink to="books" end className="nav-link">
+          <NavLink to="/books" end className="nav-link">
             <img src={bookIcon} alt="" className="nav-icon" />
             Books
           </NavLink>
@@ -50,6 +62,5 @@ const Navigation = () => {
     </nav>
   );
 };
-
 
 export default Navigation;
