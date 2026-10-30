@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./PlanVisit.css";
 
 import mapPin from "./images/map-pin-icon.png";
@@ -8,6 +9,8 @@ import wifiIcon from "./images/wifi-transparent.png";
 import paperPlane from "./images/paper-plane-icon.png";
 
 function PlanVisit() {
+  const [showMap, setShowMap] = useState(false);
+
   return (
     <div className="visit-card plan-card">
       <h2>Plan Your Visit</h2>
@@ -49,10 +52,28 @@ function PlanVisit() {
         </div>
       </div>
 
-      <a href="/" className="btn-primary btn-directions">
-        <img src={paperPlane} alt="" className="btn-icon" />
-        Get Directions
-      </a>
+      {!showMap && (
+        <button
+          type="button"
+          className="btn-primary btn-directions"
+          onClick={() => setShowMap(true)}>
+          <img src={paperPlane} alt="" className="btn-icon" />Get Directions</button>
+      )}
+
+      {showMap && (
+        <div className="map-container">
+          <iframe
+            title="Directions to Earth, Texas"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13539.567!2d-100.199!3d34.233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ee3b8b8b8b8b8b%3A0x0!2sEarth%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890"
+            width="100%"
+            height="300"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+      )}
     </div>
   );
 }
