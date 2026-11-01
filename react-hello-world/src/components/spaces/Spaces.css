@@ -83,6 +83,31 @@
   display: block;
 }
 
+.space-info-btn {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 54, 61, 0.8);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: italic;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.space-info-btn:hover {
+  background: var(--color-accent);
+  transform: scale(1.08);
+}
+
 @media (max-width: 999px) {
 .spaces-inner {
   grid-template-columns: 1fr;
