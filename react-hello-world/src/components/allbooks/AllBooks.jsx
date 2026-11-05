@@ -1,76 +1,37 @@
 import "./AllBooks.css";
 
 import AllBookShell from "../allbookshell/AllBookShell";
-
-import pipPlants from "./images/book-pip-plants-a-planet.png";
-import cloudCollectors from "./images/book-the-cloud-collectors.png";
-import robotWhoRead from "./images/book-the-robot-who-read.png";
-import mossyCreek from "./images/book-the-mystery-of-mossy-creek.png";
-import houseForEveryone from "./images/book-a-house-for-everyone.png";
-import stellaShootingStar from "./images/book-stella-and-the-shooting-star.png";
+import {useState, useEffect} from "react";
+import axios from "axios";
 
 const AllBooks = () => {
+  const [books, setBooks] = useState([]);
+
+  //after the page has loaded
+  useEffect(()=>{
+    const loadBooks = async()=>{
+      const response = await axios.get("https://fullybooked-backend.onrender.com/api/books/")
+      setBooks(response.data);
+    };
+
+    loadBooks();
+  },[]);
+
+
   return (
     <div className="all-books-section">
       <h2 className="section-title">All Books</h2>
 
       <div className="all-books-grid">
-        <AllBookShell
-          title="Pip Plants a Planet"
-          author="Elin Carter"
-          description="A little act of kindness can grow a greener world"
-          src={pipPlants}
-          genres={[{ name: "Environment", className: "environment" }]}
-        />
-
-        <AllBookShell
-          title="The Cloud Collectors"
-          author="Nora Fields"
-          description="Two friends chase clouds and find something even better"
-          src={cloudCollectors}
-          genres={[
-            { name: "Adventure", className: "adventure" },
-            { name: "Friendship", className: "friendship" },
-          ]}
-        />
-
-        <AllBookShell
-          title="The Robot Who Read"
-          author="Kai Mendoza"
-          description="A Robot discovers that stories can change everthing"
-          src={robotWhoRead}
-          genres={[{ name: "Friendship", className: "friendship" }]}
-        />
-
-        <AllBookShell
-          title="The Mystery of Willow Creek"
-          author="Jack Holloway"
-          description="Three friends, one clue, a summer to remember"
-          src={mossyCreek}
-          genres={[
-            { name: "Adventure", className: "adventure" },
-            { name: "Friendship", className: "friendship" },
-          ]}
-        />
-
-        <AllBookShell
-          title="A House For Everyone"
-          author="Mateo Singh"
-          description="Different homes, one big world, a celebration of belonging"
-          src={houseForEveryone}
-          genres={[
-            { name: "Animals", className: "animals" },
-            { name: "Friendship", className: "friendship" },
-          ]}
-        />
-
-        <AllBookShell
-          title="Stella and The Shooting Star"
-          author="Priya Raman"
-          description="The biggest dreams start with a small wish"
-          src={stellaShootingStar}
-          genres={[{ name: "Adventure", className: "adventure" }]}
-        />
+        {books.map((book) => (
+          <AllBookShell
+            title={book.title}
+            author={book.author}
+            description={book.description}
+            src={`https://fullybooked-backend.onrender.com/images/${book.img_name}`}
+            genres={book.genres || []}
+          />
+        ))}
       </div>
     </div>
   );

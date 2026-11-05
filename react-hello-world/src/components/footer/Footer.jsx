@@ -34,10 +34,10 @@ const Footer = () => {
         <div className="footer-col">
           <h4>Connect</h4>
           <div className="socials">
-            <a href="#"><img src={instagram} alt="" /></a>
-            <a href="#"><img src={facebook} alt="" /></a>
-            <a href="#" ><img src={youtube} alt="" /></a>
-            <a href="#"><img src={email} alt="" /></a>
+            <a href="/"><img src={instagram} alt="" /></a>
+            <a href="/"><img src={facebook} alt="" /></a>
+            <a href="/" ><img src={youtube} alt="" /></a>
+            <a href="/"><img src={email} alt="" /></a>
           </div>
         </div>
 
