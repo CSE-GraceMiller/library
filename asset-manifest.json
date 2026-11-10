@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/library/static/css/main.172bde6d.css",
-    "main.js": "/library/static/js/main.4b32f212.js",
+    "main.css": "/library/static/css/main.20bf2675.css",
+    "main.js": "/library/static/js/main.73a88e16.js",
     "static/media/library-pic-3.png": "/library/static/media/library-pic-3.d8d5d6b8904c7abafa76.png",
     "static/media/library-pic-1.png": "/library/static/media/library-pic-1.2d308493f446e9af7e1a.png",
     "static/media/library-pic-2.png": "/library/static/media/library-pic-2.1124b53fb622156fe578.png",
@@ -44,11 +44,11 @@
     "static/media/curiosity-top.png": "/library/static/media/curiosity-top.1e59210e023d45628f3f.png",
     "static/media/cd-icon-white.png": "/library/static/media/cd-icon-white.ffda0d959681cfcdd4f8.png",
     "index.html": "/library/index.html",
-    "main.172bde6d.css.map": "/library/static/css/main.172bde6d.css.map",
-    "main.4b32f212.js.map": "/library/static/js/main.4b32f212.js.map"
+    "main.20bf2675.css.map": "/library/static/css/main.20bf2675.css.map",
+    "main.73a88e16.js.map": "/library/static/js/main.73a88e16.js.map"
   },
   "entrypoints": [
-    "static/css/main.172bde6d.css",
-    "static/js/main.4b32f212.js"
+    "static/css/main.20bf2675.css",
+    "static/js/main.73a88e16.js"
   ]
 }
