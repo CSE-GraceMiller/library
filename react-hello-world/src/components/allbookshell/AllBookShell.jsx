@@ -1,6 +1,21 @@
+import { useState } from "react";
+import BookDialog from "../bookdialogue/BookDialog";
+import "../bookdialogue/BookDialog"
+
 function AllBookShell({ title, author, description, src, genres = [] }) {
+  const [showDialog, setShowDialog] = useState(false);
+
+  const showDetails = () => {
+    setShowDialog(true);
+  };
+
+  const hideDetails = (e) => {
+    e.stopPropagation();
+    setShowDialog(false);
+  };
+
   return (
-    <article className="book-card-catalogue">
+    <article className="book-card-catalogue" onClick={showDetails}>
       <div className="book-cover">
         <img src={src} alt={title} />
       </div>
@@ -17,6 +32,14 @@ function AllBookShell({ title, author, description, src, genres = [] }) {
 
         <label className="available"><input type="checkbox" defaultChecked disabled /> Available</label>
       </div>
+
+      {showDialog && (<BookDialog
+          title={title}
+          author={author}
+          description={description}
+          close_dialog={hideDetails}
+        />
+      )}
     </article>
   );
 }
