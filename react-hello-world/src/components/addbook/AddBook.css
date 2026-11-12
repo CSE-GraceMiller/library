@@ -1,0 +1,141 @@
+#add-book-dialog {
+  background-color: rgba(0, 54, 61, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#add-book-dialog .w3-modal-content {
+  background-color: var(--color-bg);
+  border-radius: 16px;
+  max-width: 520px;
+  width: 100%;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+#add-book-dialog .w3-container {
+  background-color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#dialog-close {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+#dialog-close:hover {
+  color: var(--color-yellow);
+}
+
+#book-dialog-content {
+  padding: 2rem 2.2rem 2.5rem;
+  color: var(--color-text);
+}
+
+#book-dialog-content h2 {
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#book-dialog-content form p {
+  margin-bottom: 1.1rem;
+}
+
+#book-dialog-content label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 0.95rem;
+}
+
+#book-dialog-content input[type="text"],
+#book-dialog-content input[type="number"],
+#book-dialog-content textarea {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: 2px solid var(--color-bg-soft);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: white;
+  color: var(--color-text);
+  transition: border-color 0.2s;
+}
+
+#book-dialog-content input:focus,
+#book-dialog-content textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+#book-dialog-content textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+#img-prev-section {
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+#img-prev {
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 10px;
+  border: 3px solid var(--color-primary);
+  object-fit: cover;
+}
+
+#book-dialog-content input[type="file"] {
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+#book-dialog-content button[type="submit"] {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 0.5rem;
+}
+
+#book-dialog-content button[type="submit"]:hover {
+  background-color: var(--color-primary-dark);
+}
+
+#book-dialog-content p:last-child {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+/* mobile atyling */
+@media (max-width: 600px) {
+  #add-book-dialog .w3-modal-content {
+    margin: 1rem;
+  }
+
+  #book-dialog-content {
+    padding: 1.5rem;
+  }
+}
